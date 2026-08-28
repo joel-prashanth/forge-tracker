@@ -1,57 +1,246 @@
 {
   "meals": [
-    {"id":"m1","time":"6:30 AM","label":"Almonds","detail":"5 pieces"},
-    {"id":"m2","time":"7:00 AM","label":"Banana + black coffee","detail":"Pre-workout"},
-    {"id":"m3","time":"8:30 AM","label":"Eggs + brown bread + ghee","detail":"4 eggs, 2 slices, 1 tsp ghee"},
-    {"id":"m4","time":"11:00 AM","label":"Curd + fruit + almonds","detail":"1 cup curd, 1 fruit, 10 almonds"},
-    {"id":"m5","time":"1:30 PM","label":"Chicken + rice + dal","detail":"150g chicken, 1 cup rice, 1 cup dal, 1 tsp oil"},
-    {"id":"m6","time":"4:30 PM","label":"Sprouts + peanut butter","detail":"1 cup sprouts, 1 tbsp PB"},
-    {"id":"m7","time":"7:30 PM","label":"Fish + brown bread + sabzi","detail":"150g fish, 2 slices, 1 cup sabzi"},
-    {"id":"m8","time":"9:30 PM","label":"Milk","detail":"1 cup before bed"}
+    {
+      "id": "m1",
+      "time": "6:30 AM",
+      "label": "Almonds",
+      "detail": "5 pieces"
+    },
+    {
+      "id": "m2",
+      "time": "7:00 AM",
+      "label": "Banana + black coffee",
+      "detail": "Pre-workout"
+    },
+    {
+      "id": "m3",
+      "time": "8:30 AM",
+      "label": "Eggs + brown bread + ghee",
+      "detail": "4 eggs, 2 slices, 1 tsp ghee"
+    },
+    {
+      "id": "m4",
+      "time": "11:00 AM",
+      "label": "Curd + fruit + almonds",
+      "detail": "1 cup curd, 1 fruit, 10 almonds"
+    },
+    {
+      "id": "m5",
+      "time": "1:30 PM",
+      "label": "Chicken + rice + dal",
+      "detail": "150g chicken, 1 cup rice, 1 cup dal, 1 tsp oil"
+    },
+    {
+      "id": "m6",
+      "time": "4:30 PM",
+      "label": "Sprouts + peanut butter",
+      "detail": "1 cup sprouts, 1 tbsp PB"
+    },
+    {
+      "id": "m7",
+      "time": "7:30 PM",
+      "label": "Fish + brown bread + sabzi",
+      "detail": "150g fish, 2 slices, 1 cup sabzi"
+    },
+    {
+      "id": "m8",
+      "time": "9:30 PM",
+      "label": "Milk",
+      "detail": "1 cup before bed"
+    }
   ],
   "workoutTypes": {
-    "Push": ["DB Bench / Floor Press","DB Shoulder Press","DB Lateral Raises","DB Incline/Flat Flyes","DB Overhead Triceps Extension","DB Triceps Kickbacks"],
-    "Pull": ["DB Bent-Over Rows","DB Single-Arm Rows","Pull-Ups (if available)","DB Rear Delt Flyes","DB Biceps Curls","DB Hammer Curls"],
-    "Legs": ["DB Goblet Squats","DB Walking Lunges","DB Romanian Deadlifts","DB Step-Ups","DB Calf Raises"],
-    "Core": ["Hanging/Lying Leg Raises","Plank (45-60s)","Russian Twists (DB)","Jump Rope 10 min","Weighted Jump Rope 10 min"],
-    "Conditioning": ["Jump Rope Warm-up 5 min","Weighted Jump Rope Intervals (8x 30s on/off)","Regular Jump Rope 10-15 min","DB Complex (squat+press+row) x3"],
+    "Push": [
+      "DB Bench / Floor Press",
+      "DB Shoulder Press",
+      "DB Lateral Raises",
+      "DB Incline/Flat Flyes",
+      "DB Overhead Triceps Extension",
+      "DB Triceps Kickbacks"
+    ],
+    "Pull": [
+      "DB Bent-Over Rows",
+      "DB Single-Arm Rows",
+      "Pull-Ups (if available)",
+      "DB Rear Delt Flyes",
+      "DB Biceps Curls",
+      "DB Hammer Curls"
+    ],
+    "Legs": [
+      "DB Goblet Squats",
+      "DB Walking Lunges",
+      "DB Romanian Deadlifts",
+      "DB Step-Ups",
+      "DB Calf Raises"
+    ],
+    "Core": [
+      "Hanging/Lying Leg Raises",
+      "Plank (45-60s)",
+      "Russian Twists (DB)",
+      "Jump Rope 10 min",
+      "Weighted Jump Rope 10 min"
+    ],
+    "Conditioning": [
+      "Jump Rope Warm-up 5 min",
+      "Weighted Jump Rope Intervals (8x 30s on/off)",
+      "Regular Jump Rope 10-15 min",
+      "DB Complex (squat+press+row) x3"
+    ],
     "Rest": []
   },
-  "targets": {"calories": 2500, "protein": 178, "fat": 70, "carbs": 290},
-  "foodDatabase": {
-    "Whole Egg": {"unit":"1 piece","cal":70,"protein":6,"fat":5,"carb":0.5},
-    "Brown Bread": {"unit":"1 slice","cal":70,"protein":3,"fat":1,"carb":13},
-    "Cooked Rice": {"unit":"1 cup","cal":200,"protein":4,"fat":0.5,"carb":45},
-    "Cooked Dal": {"unit":"1 cup","cal":200,"protein":14,"fat":4,"carb":27},
-    "Chicken Breast": {"unit":"100g","cal":165,"protein":31,"fat":3.6,"carb":0},
-    "Fish": {"unit":"100g","cal":120,"protein":20,"fat":4,"carb":0},
-    "Curd": {"unit":"1 cup","cal":120,"protein":7,"fat":4,"carb":10},
-    "Milk": {"unit":"1 cup","cal":120,"protein":6.6,"fat":6.4,"carb":9.6},
-    "Banana": {"unit":"1 piece","cal":105,"protein":1.3,"fat":0.4,"carb":27},
-    "Almonds": {"unit":"10 pieces","cal":82,"protein":3,"fat":7,"carb":3},
-    "Peanut Butter": {"unit":"1 tbsp","cal":95,"protein":4,"fat":8,"carb":3},
-    "Sprouts": {"unit":"1 cup","cal":100,"protein":7,"fat":0.5,"carb":17},
-    "Sabzi": {"unit":"1 cup","cal":150,"protein":4,"fat":8,"carb":15},
-    "Ghee": {"unit":"1 tsp","cal":45,"protein":0,"fat":5,"carb":0},
-    "Coffee": {"unit":"1 cup","cal":5,"protein":0,"fat":0,"carb":1},
-    "Fruit": {"unit":"1 piece","cal":60,"protein":1,"fat":0.2,"carb":15},
-    "Oil": {"unit":"1 tsp","cal":40,"protein":0,"fat":4.5,"carb":0}
+  "targets": {
+    "calories": 2500,
+    "protein": 178,
+    "fat": 70,
+    "carbs": 290
   },
-  "profile": {"startWeight": 90.1, "startBF": 26, "height": "5'8\""},
+  "foodDatabase": {
+    "Whole Egg": {
+      "unit": "1 piece",
+      "cal": 70,
+      "protein": 6,
+      "fat": 5,
+      "carb": 0.5
+    },
+    "Brown Bread": {
+      "unit": "1 slice",
+      "cal": 70,
+      "protein": 3,
+      "fat": 1,
+      "carb": 13
+    },
+    "Cooked Rice": {
+      "unit": "1 cup",
+      "cal": 200,
+      "protein": 4,
+      "fat": 0.5,
+      "carb": 45
+    },
+    "Cooked Dal": {
+      "unit": "1 cup",
+      "cal": 200,
+      "protein": 14,
+      "fat": 4,
+      "carb": 27
+    },
+    "Chicken Breast": {
+      "unit": "100g",
+      "cal": 165,
+      "protein": 31,
+      "fat": 3.6,
+      "carb": 0
+    },
+    "Fish": {
+      "unit": "100g",
+      "cal": 120,
+      "protein": 20,
+      "fat": 4,
+      "carb": 0
+    },
+    "Curd": {
+      "unit": "1 cup",
+      "cal": 120,
+      "protein": 7,
+      "fat": 4,
+      "carb": 10
+    },
+    "Milk": {
+      "unit": "1 cup",
+      "cal": 120,
+      "protein": 6.6,
+      "fat": 6.4,
+      "carb": 9.6
+    },
+    "Banana": {
+      "unit": "1 piece",
+      "cal": 105,
+      "protein": 1.3,
+      "fat": 0.4,
+      "carb": 27
+    },
+    "Almonds": {
+      "unit": "10 pieces",
+      "cal": 82,
+      "protein": 3,
+      "fat": 7,
+      "carb": 3
+    },
+    "Peanut Butter": {
+      "unit": "1 tbsp",
+      "cal": 95,
+      "protein": 4,
+      "fat": 8,
+      "carb": 3
+    },
+    "Sprouts": {
+      "unit": "1 cup",
+      "cal": 100,
+      "protein": 7,
+      "fat": 0.5,
+      "carb": 17
+    },
+    "Sabzi": {
+      "unit": "1 cup",
+      "cal": 150,
+      "protein": 4,
+      "fat": 8,
+      "carb": 15
+    },
+    "Ghee": {
+      "unit": "1 tsp",
+      "cal": 45,
+      "protein": 0,
+      "fat": 5,
+      "carb": 0
+    },
+    "Coffee": {
+      "unit": "1 cup",
+      "cal": 5,
+      "protein": 0,
+      "fat": 0,
+      "carb": 1
+    },
+    "Fruit": {
+      "unit": "1 piece",
+      "cal": 60,
+      "protein": 1,
+      "fat": 0.2,
+      "carb": 15
+    },
+    "Oil": {
+      "unit": "1 tsp",
+      "cal": 40,
+      "protein": 0,
+      "fat": 4.5,
+      "carb": 0
+    }
+  },
+  "profile": {
+    "startWeight": 90.1,
+    "startBF": 26,
+    "height": "5'8\""
+  },
   "logs": {
     "2026-08-28": {
       "workoutType": "Push",
       "workoutDone": true,
       "meals": {
-        "m1": true, "m2": true, "m3": true, "m4": true, "m5": true, "m6": true, "m7": null, "m8": null
+        "m1": true,
+        "m2": true,
+        "m3": true,
+        "m4": true,
+        "m5": true,
+        "m6": true,
+        "m7": true,
+        "m8": null
       },
       "deviations": [
         "Skipped curd at 11:00 AM (had almonds + fruit only)",
         "Added barbati (extra veg) at lunch",
-        "Dinner: fish unavailable, alternative TBD"
+        "Dinner: dal makhni + rice instead of fish + brown bread + sabzi"
       ],
       "weight": null,
-      "notes": "Push day complete. On plan through evening snack. Awaiting dinner choice."
+      "notes": "Push day complete. On plan through evening snack. Dinner swapped to dal makhni + rice (no fish available). Milk before bed still pending."
     }
   }
 }
