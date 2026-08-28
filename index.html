@@ -76,6 +76,34 @@ function render(data){
 
   let html = '';
 
+  // Status logic
+  const devCount = (log.deviations || []).length;
+  const mealsRemaining = data.meals.length - mealDoneCount;
+  let status, statusColor, statusNote;
+  if (log.workoutDone !== false && devCount <= 1 && mealDoneCount >= data.meals.length - mealsRemaining) {
+    if (devCount === 0 && (log.workoutDone || mealsRemaining > 0)) {
+      status = 'ON TRACK'; statusColor = 'var(--success)';
+      statusNote = 'No deviations logged today. Keep going.';
+    } else {
+      status = 'MINOR DEVIATIONS'; statusColor = '#E0B84A';
+      statusNote = `${devCount} small deviation${devCount === 1 ? '' : 's'} today — nothing that derails progress.`;
+    }
+  } else if (devCount <= 3 && log.workoutDone !== false) {
+    status = 'MINOR DEVIATIONS'; statusColor = '#E0B84A';
+    statusNote = `${devCount} deviations today. Still broadly on-plan.`;
+  } else {
+    status = 'OFF TRACK'; statusColor = 'var(--ember)';
+    statusNote = log.workoutDone === false ? 'Workout missed today.' : `${devCount} deviations — consider getting back to plan tomorrow.`;
+  }
+
+  html += `<div class="card" style="border-color:${statusColor}; border-width:1.5px;">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div class="section-title" style="margin:0;">Status</div>
+      <div class="display" style="font-size:20px; color:${statusColor};">${status}</div>
+    </div>
+    <div class="note" style="margin-top:6px;">${statusNote}</div>
+  </div>`;
+
   // Stats row
   const workoutBadge = log.workoutType ?
     `<span class="badge">${log.workoutType}${log.workoutDone ? ' ✓' : ''}</span>` : '';
