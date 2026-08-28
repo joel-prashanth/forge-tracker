@@ -240,15 +240,16 @@
         "m5": true,
         "m6": true,
         "m7": true,
-        "m8": null
+        "m8": false
       },
       "deviations": [
         "Skipped curd at 11:00 AM (had almonds + fruit only)",
         "Added barbati (extra veg) at lunch",
-        "Dinner: 500g dal makhni + rice (~1 cup assumed) instead of fish + brown bread + sabzi"
+        "Dinner: 500g dal makhni + rice (~1 cup assumed) instead of fish + brown bread + sabzi",
+        "Skipped 9:30 PM milk to stay closer to calorie target after rich dal makhni dinner"
       ],
       "weight": null,
-      "notes": "Push day complete. Dinner swapped to 500g dal makhni + rice (no fish available) \u2014 richer/higher-calorie than plan. Milk before bed still pending.",
+      "notes": "Push day complete. Dinner swapped to 500g dal makhni + rice (richer than plan). Milk skipped deliberately to offset the overshoot risk. Day total: ~2591 kcal.",
       "estimatedCalories": 2591
     }
   }
