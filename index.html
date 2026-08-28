@@ -104,6 +104,28 @@ function render(data){
     <div class="note" style="margin-top:6px;">${statusNote}</div>
   </div>`;
 
+  // Calorie target card
+  const target = data.targets.calories;
+  const actual = log.estimatedCalories != null ? log.estimatedCalories : null;
+  if (actual != null) {
+    const diff = actual - target;
+    let calStatus, calColor;
+    if (Math.abs(diff) <= 150) { calStatus = 'ON TRACK'; calColor = 'var(--success)'; }
+    else if (diff < -150) { calStatus = 'BEHIND'; calColor = 'var(--steel)'; }
+    else { calStatus = 'OVERSHOOT'; calColor = 'var(--ember)'; }
+    const diffLabel = diff === 0 ? 'exactly on target' : (diff > 0 ? `+${diff} kcal over` : `${diff} kcal under`);
+
+    html += `<div class="card">
+      <div class="section-title">Calories</div>
+      <div style="display:flex; align-items:baseline; gap:8px; margin-bottom:4px;">
+        <div class="display" style="font-size:28px;">${actual}</div>
+        <div class="note" style="margin:0;">/ ${target} kcal target</div>
+        <div class="display" style="font-size:16px; color:${calColor}; margin-left:auto;">${calStatus}</div>
+      </div>
+      <div class="note">${diffLabel}${mealsRemaining > 0 ? ` — ${mealsRemaining} meal${mealsRemaining===1?'':'s'} still to go today` : ' — day complete'}</div>
+    </div>`;
+  }
+
   // Stats row
   const workoutBadge = log.workoutType ?
     `<span class="badge">${log.workoutType}${log.workoutDone ? ' ✓' : ''}</span>` : '';

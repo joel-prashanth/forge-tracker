@@ -4,49 +4,57 @@
       "id": "m1",
       "time": "6:30 AM",
       "label": "Almonds",
-      "detail": "5 pieces"
+      "detail": "5 pieces",
+      "cal": 41
     },
     {
       "id": "m2",
       "time": "7:00 AM",
       "label": "Banana + black coffee",
-      "detail": "Pre-workout"
+      "detail": "Pre-workout",
+      "cal": 110
     },
     {
       "id": "m3",
       "time": "8:30 AM",
       "label": "Eggs + brown bread + ghee",
-      "detail": "4 eggs, 2 slices, 1 tsp ghee"
+      "detail": "4 eggs, 2 slices, 1 tsp ghee",
+      "cal": 465
     },
     {
       "id": "m4",
       "time": "11:00 AM",
       "label": "Curd + fruit + almonds",
-      "detail": "1 cup curd, 1 fruit, 10 almonds"
+      "detail": "1 cup curd, 1 fruit, 10 almonds",
+      "cal": 262
     },
     {
       "id": "m5",
       "time": "1:30 PM",
       "label": "Chicken + rice + dal",
-      "detail": "150g chicken, 1 cup rice, 1 cup dal, 1 tsp oil"
+      "detail": "150g chicken, 1 cup rice, 1 cup dal, 1 tsp oil",
+      "cal": 688
     },
     {
       "id": "m6",
       "time": "4:30 PM",
       "label": "Sprouts + peanut butter",
-      "detail": "1 cup sprouts, 1 tbsp PB"
+      "detail": "1 cup sprouts, 1 tbsp PB",
+      "cal": 195
     },
     {
       "id": "m7",
       "time": "7:30 PM",
       "label": "Fish + brown bread + sabzi",
-      "detail": "150g fish, 2 slices, 1 cup sabzi"
+      "detail": "150g fish, 2 slices, 1 cup sabzi",
+      "cal": 470
     },
     {
       "id": "m8",
       "time": "9:30 PM",
       "label": "Milk",
-      "detail": "1 cup before bed"
+      "detail": "1 cup before bed",
+      "cal": 120
     }
   ],
   "workoutTypes": {
@@ -240,7 +248,8 @@
         "Dinner: dal makhni + rice instead of fish + brown bread + sabzi"
       ],
       "weight": null,
-      "notes": "Push day complete. On plan through evening snack. Dinner swapped to dal makhni + rice (no fish available). Milk before bed still pending."
+      "notes": "Push day complete. On plan through evening snack. Dinner swapped to dal makhni + rice (no fish available). Milk before bed still pending.",
+      "estimatedCalories": 2221
     }
   }
 }
