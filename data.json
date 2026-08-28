@@ -270,14 +270,15 @@
         "Skipped curd at 11:00 AM (had almonds + fruit only)",
         "Added barbati (extra veg) at lunch",
         "Dinner: 500g dal makhni + rice (~1 cup assumed) instead of fish + brown bread + sabzi",
-        "Skipped 9:30 PM milk to stay closer to calorie target after rich dal makhni dinner"
+        "Skipped 9:30 PM milk to stay closer to calorie target after rich dal makhni dinner",
+        "Added 100g Greek yogurt (extra, off-plan) \u2014 helped close the protein gap"
       ],
       "weight": null,
-      "notes": "Push day complete. Dinner swapped to 500g dal makhni + rice (richer than plan). Milk skipped deliberately to offset the overshoot risk. Day total: ~2591 kcal.",
-      "estimatedCalories": 2591,
-      "estimatedProtein": 143.3,
-      "estimatedFat": 102.0,
-      "estimatedCarbs": 280.5
+      "notes": "Push day complete. Dinner swapped to 500g dal makhni + rice. Milk skipped, added 100g Greek yogurt instead to boost protein. Day total: ~2691 kcal.",
+      "estimatedCalories": 2691,
+      "estimatedProtein": 153.3,
+      "estimatedFat": 107.0,
+      "estimatedCarbs": 284.5
     }
   }
 }
