@@ -126,6 +126,31 @@ function render(data){
     </div>`;
   }
 
+  // Macro cards (protein, fat, carbs)
+  function macroCard(name, actualVal, targetVal, band, unit){
+    if (actualVal == null) return '';
+    const diff = actualVal - targetVal;
+    let mStatus, mColor;
+    if (Math.abs(diff) <= band) { mStatus = 'ON TRACK'; mColor = 'var(--success)'; }
+    else if (diff < -band) { mStatus = 'BEHIND'; mColor = 'var(--steel)'; }
+    else { mStatus = 'OVERSHOOT'; mColor = 'var(--ember)'; }
+    const diffLabel = diff === 0 ? 'on target' : (diff > 0 ? `+${diff}${unit} over` : `${diff}${unit} under`);
+    return `<div class="card">
+      <div style="display:flex; align-items:baseline; gap:8px;">
+        <div class="section-title" style="margin:0; flex:1;">${name}</div>
+        <div class="display" style="font-size:16px; color:${mColor};">${mStatus}</div>
+      </div>
+      <div style="display:flex; align-items:baseline; gap:6px; margin-top:4px;">
+        <div class="display" style="font-size:22px;">${actualVal}${unit}</div>
+        <div class="note" style="margin:0;">/ ${targetVal}${unit} target — ${diffLabel}</div>
+      </div>
+    </div>`;
+  }
+
+  html += macroCard('Protein', log.estimatedProtein, data.targets.protein, 15, 'g');
+  html += macroCard('Fat', log.estimatedFat, data.targets.fat, 15, 'g');
+  html += macroCard('Carbs', log.estimatedCarbs, data.targets.carbs, 30, 'g');
+
   // Stats row
   const workoutBadge = log.workoutType ?
     `<span class="badge">${log.workoutType}${log.workoutDone ? ' ✓' : ''}</span>` : '';
