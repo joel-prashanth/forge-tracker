@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forge Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#111214; --surface:#1B1D21; --surface-2:#232529; --border:#2E3136;
+    --ember:#FF5A36; --ember-dim:#5A2A1D; --steel:#4A7FB5;
+    --text:#F2F0EB; --text-dim:#9AA0A8; --text-faint:#5C6067; --success:#3FBF83;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--text); font-family:'Inter',sans-serif;}
+  .display{font-family:'Bebas Neue',sans-serif; letter-spacing:0.03em;}
+  .wrap{max-width:520px; margin:0 auto; padding:20px 16px 50px;}
+  .header{display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:18px;}
+  .header .title{font-size:34px; line-height:1;}
+  .header .sub{font-size:12px; color:var(--text-dim); margin-top:4px;}
+  .card{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:16px;}
+  .section-title{font-family:'Bebas Neue',sans-serif; font-size:16px; letter-spacing:0.08em; color:var(--text-dim); margin:0 0 10px 2px; text-transform:uppercase;}
+  .badge{display:inline-block; background:var(--ember-dim); color:var(--ember); font-size:11px; font-weight:700; padding:3px 10px; border-radius:12px; margin-left:8px;}
+  .badge.gray{background:var(--surface-2); color:var(--text-dim);}
+  .meal-row{display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid var(--border);}
+  .meal-row:last-child{border-bottom:none;}
+  .dot{width:10px; height:10px; border-radius:50%; flex:0 0 10px;}
+  .dot.done{background:var(--success);}
+  .dot.pending{background:var(--text-faint);}
+  .meal-time{font-size:11px; color:var(--ember); font-weight:700; width:64px; flex:0 0 64px;}
+  .meal-label{font-size:13px; color:var(--text);}
+  .meal-detail{font-size:11px; color:var(--text-faint); display:block;}
+  .deviation{font-size:12px; color:var(--text-dim); padding:6px 10px; background:var(--surface-2); border-radius:8px; margin-bottom:6px; border-left:3px solid var(--ember);}
+  .exercise-row{font-size:13px; padding:6px 0; border-bottom:1px solid var(--border); color:var(--text);}
+  .exercise-row:last-child{border-bottom:none;}
+  .stat-row{display:flex; gap:10px; margin-bottom:16px;}
+  .stat{flex:1; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;}
+  .stat .num{font-family:'Bebas Neue',sans-serif; font-size:22px; color:var(--ember);}
+  .stat .lbl{font-size:10px; color:var(--text-faint); text-transform:uppercase; letter-spacing:0.05em; margin-top:2px;}
+  .note{font-size:12px; color:var(--text-faint); margin-top:10px;}
+  .updated{font-size:11px; color:var(--text-faint); text-align:center; margin-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div>
+      <div class="title display">FORGE</div>
+      <div class="sub">Daily tracker — updated by Claude</div>
+    </div>
+  </div>
+
+  <div id="content">Loading...</div>
+
+  <div class="updated" id="updated"></div>
+</div>
+
+<script>
+async function load(){
+  const res = await fetch('data.json?t=' + Date.now());
+  const data = await res.json();
+  render(data);
+}
+
+function render(data){
+  const dates = Object.keys(data.logs).sort().reverse();
+  const today = dates[0];
+  const log = data.logs[today];
+  const content = document.getElementById('content');
+
+  let mealCal = 0, mealPro = 0, mealFat = 0, mealCarb = 0, mealDoneCount = 0;
+  data.meals.forEach(m => {
+    if (log.meals[m.id]) mealDoneCount++;
+  });
+
+  let html = '';
+
+  // Stats row
+  const workoutBadge = log.workoutType ?
+    `<span class="badge">${log.workoutType}${log.workoutDone ? ' ✓' : ''}</span>` : '';
+
+  html += `<div class="stat-row">
+    <div class="stat"><div class="num">${mealDoneCount}/${data.meals.length}</div><div class="lbl">Meals Done</div></div>
+    <div class="stat"><div class="num">${log.workoutDone ? '✓' : '—'}</div><div class="lbl">Workout</div></div>
+    <div class="stat"><div class="num">${log.weight || '—'}</div><div class="lbl">Weight (kg)</div></div>
+  </div>`;
+
+  // Today card
+  html += `<div class="card">
+    <div class="section-title">Today — ${today} ${workoutBadge}</div>`;
+  data.meals.forEach(m => {
+    const done = log.meals[m.id];
+    html += `<div class="meal-row">
+      <div class="dot ${done ? 'done' : 'pending'}"></div>
+      <div class="meal-time">${m.time}</div>
+      <div>
+        <div class="meal-label">${m.label}</div>
+        <span class="meal-detail">${m.detail}</span>
+      </div>
+    </div>`;
+  });
+  html += `</div>`;
+
+  // Deviations
+  if (log.deviations && log.deviations.length){
+    html += `<div class="card"><div class="section-title">Deviations Today</div>`;
+    log.deviations.forEach(d => {
+      html += `<div class="deviation">${d}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Workout exercises
+  if (log.workoutType && data.workoutTypes[log.workoutType] && data.workoutTypes[log.workoutType].length){
+    html += `<div class="card"><div class="section-title">${log.workoutType} Day Exercises</div>`;
+    data.workoutTypes[log.workoutType].forEach(ex => {
+      html += `<div class="exercise-row">${ex}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Notes
+  if (log.notes){
+    html += `<div class="card"><div class="section-title">Notes</div><div class="note">${log.notes}</div></div>`;
+  }
+
+  // Targets
+  html += `<div class="card">
+    <div class="section-title">Daily Targets</div>
+    <div class="note">Calories: ${data.targets.calories} kcal &nbsp;|&nbsp; Protein: ${data.targets.protein}g &nbsp;|&nbsp; Fat: ${data.targets.fat}g &nbsp;|&nbsp; Carbs: ${data.targets.carbs}g</div>
+  </div>`;
+
+  // History (previous days)
+  if (dates.length > 1){
+    html += `<div class="card"><div class="section-title">History</div>`;
+    dates.slice(1).forEach(d => {
+      const l = data.logs[d];
+      const doneCount = data.meals.filter(m => l.meals[m.id]).length;
+      html += `<div class="exercise-row">${d} — ${l.workoutType || 'Rest'}${l.workoutDone ? ' ✓' : ''} — ${doneCount}/${data.meals.length} meals${l.weight ? ' — ' + l.weight + 'kg' : ''}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  content.innerHTML = html;
+  document.getElementById('updated').textContent = 'Last synced: ' + new Date().toLocaleString();
+}
+
+load();
+</script>
+</body>
+</html>
