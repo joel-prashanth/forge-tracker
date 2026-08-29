@@ -280,7 +280,7 @@
       "estimatedCarbs": 280.5
     },
     "2026-08-29": {
-      "workoutType": null,
+      "workoutType": "Pull",
       "workoutDone": null,
       "meals": {
         "m1": null,
