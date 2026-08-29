@@ -285,7 +285,7 @@
       "meals": {
         "m1": true,
         "m2": true,
-        "m3": null,
+        "m3": true,
         "m4": null,
         "m5": null,
         "m6": null,
@@ -295,14 +295,15 @@
       "deviations": [
         "Pull-ups skipped (no bar access) \u2014 rest of Pull day completed",
         "7:00 AM: only black coffee, banana skipped",
-        "11:00 AM slot: Greek yogurt (100g) planned instead of curd today"
+        "11:00 AM slot: Greek yogurt (100g) planned instead of curd today",
+        "8:30 AM: 4 eggs + 2 brown bread only, ghee skipped"
       ],
       "weight": null,
-      "notes": "Pull day done (minus pull-ups). Breakfast so far: almonds + black coffee (banana skipped).",
-      "estimatedCalories": 46,
-      "estimatedProtein": 1.5,
-      "estimatedFat": 3.5,
-      "estimatedCarbs": 2.5
+      "notes": "Pull day done (minus pull-ups). Breakfast: almonds, coffee (no banana), 4 eggs + 2 brown bread (no ghee).",
+      "estimatedCalories": 466,
+      "estimatedProtein": 31.5,
+      "estimatedFat": 25.5,
+      "estimatedCarbs": 30.5
     }
   }
 }
