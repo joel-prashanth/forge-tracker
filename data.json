@@ -290,17 +290,18 @@
         "m5": true,
         "m6": true,
         "m7": true,
-        "m8": null
+        "m8": false
       },
       "deviations": [
         "Pull-ups skipped (no bar access) \u2014 rest of Pull day completed",
         "11:00 AM slot: Greek yogurt (100g) planned instead of curd today",
         "11:00 AM: only 3 apple slices (partial fruit) instead of a whole fruit",
         "~12:30 PM: extra curd rice (leftover rice) between lunch and snack",
-        "Dinner: 2 roti (not brown bread) + sabzi (beans) + double egg omelet, instead of fish + brown bread + sabzi"
+        "Dinner: 2 roti (not brown bread) + sabzi (beans) + double egg omelet, instead of fish + brown bread + sabzi",
+        "Skipped 9:30 PM milk to keep fat from climbing further"
       ],
       "weight": null,
-      "notes": "Pull day done (minus pull-ups). On plan through dinner (roti+sabzi+double egg omelet, fish unavailable). Milk decision pending.",
+      "notes": "Pull day done (minus pull-ups). Day complete. Final: ~2470.5 kcal, 154.3g protein, 89.1g fat, 262.5g carb.",
       "estimatedCalories": 2470.5,
       "estimatedProtein": 154.3,
       "estimatedFat": 89.1,
