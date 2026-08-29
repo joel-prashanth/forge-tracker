@@ -295,14 +295,15 @@
       "deviations": [
         "Pull-ups skipped (no bar access) \u2014 rest of Pull day completed",
         "11:00 AM slot: Greek yogurt (100g) planned instead of curd today",
-        "11:00 AM: only 3 apple slices (partial fruit) instead of a whole fruit"
+        "11:00 AM: only 3 apple slices (partial fruit) instead of a whole fruit",
+        "~12:30 PM: extra curd rice (leftover rice) between lunch and snack"
       ],
       "weight": null,
-      "notes": "Pull day done (minus pull-ups). On plan through lunch (chicken + rice + dal).",
-      "estimatedCalories": 1465.5,
-      "estimatedProtein": 110.3,
-      "estimatedFat": 52.8,
-      "estimatedCarbs": 141.5
+      "notes": "Pull day done (minus pull-ups). On plan through lunch, plus extra curd rice made from leftovers.",
+      "estimatedCalories": 1785.5,
+      "estimatedProtein": 121.3,
+      "estimatedFat": 57.3,
+      "estimatedCarbs": 196.5
     }
   }
 }
