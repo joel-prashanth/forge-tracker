@@ -80,7 +80,10 @@ function render(data){
   const devCount = (log.deviations || []).length;
   const mealsRemaining = data.meals.length - mealDoneCount;
   let status, statusColor, statusNote;
-  if (log.workoutDone !== false && devCount <= 1 && mealDoneCount >= data.meals.length - mealsRemaining) {
+  if (mealDoneCount === 0 && log.workoutDone == null) {
+    status = 'DAY STARTING'; statusColor = 'var(--text-dim)';
+    statusNote = 'Nothing logged yet today.';
+  } else if (log.workoutDone !== false && devCount <= 1 && mealDoneCount >= data.meals.length - mealsRemaining) {
     if (devCount === 0 && (log.workoutDone || mealsRemaining > 0)) {
       status = 'ON TRACK'; statusColor = 'var(--success)';
       statusNote = 'No deviations logged today. Keep going.';

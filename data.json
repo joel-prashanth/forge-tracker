@@ -278,6 +278,29 @@
       "estimatedProtein": 143.3,
       "estimatedFat": 102.0,
       "estimatedCarbs": 280.5
+    },
+    "2026-08-29": {
+      "workoutType": null,
+      "workoutDone": null,
+      "meals": {
+        "m1": null,
+        "m2": null,
+        "m3": null,
+        "m4": null,
+        "m5": null,
+        "m6": null,
+        "m7": null,
+        "m8": null
+      },
+      "deviations": [
+        "11:00 AM slot: Greek yogurt (100g) planned instead of curd today"
+      ],
+      "weight": null,
+      "notes": "New day started.",
+      "estimatedCalories": null,
+      "estimatedProtein": null,
+      "estimatedFat": null,
+      "estimatedCarbs": null
     }
   }
 }
