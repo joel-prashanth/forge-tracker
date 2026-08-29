@@ -286,7 +286,7 @@
         "m1": true,
         "m2": true,
         "m3": true,
-        "m4": null,
+        "m4": true,
         "m5": null,
         "m6": null,
         "m7": null,
@@ -294,14 +294,15 @@
       },
       "deviations": [
         "Pull-ups skipped (no bar access) \u2014 rest of Pull day completed",
-        "11:00 AM slot: Greek yogurt (100g) planned instead of curd today"
+        "11:00 AM slot: Greek yogurt (100g) planned instead of curd today",
+        "11:00 AM: Greek yogurt + almonds, fruit skipped"
       ],
       "weight": null,
-      "notes": "Pull day done (minus pull-ups). Breakfast fully on-plan: almonds, banana + coffee, 4 eggs + 2 brown bread toasted in ghee.",
-      "estimatedCalories": 616,
-      "estimatedProtein": 32.8,
-      "estimatedFat": 30.9,
-      "estimatedCarbs": 57.5
+      "notes": "Pull day done (minus pull-ups). Breakfast fully on-plan. 11am: Greek yogurt + almonds, fruit skipped.",
+      "estimatedCalories": 798,
+      "estimatedProtein": 45.8,
+      "estimatedFat": 42.9,
+      "estimatedCarbs": 64.5
     }
   }
 }
