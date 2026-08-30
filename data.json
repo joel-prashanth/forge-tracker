@@ -324,14 +324,15 @@
         "Step-ups skipped \u2014 rest of Legs day completed",
         "Extra 10 almonds had (beyond the 5 at 6:30)",
         "Lunch: rice + chana curry + dal (vegetarian) instead of chicken + rice + dal",
-        "4:30 PM: 100g Greek yogurt instead of sprouts + peanut butter"
+        "4:30 PM: 100g Greek yogurt instead of sprouts + peanut butter",
+        "Also had 1 tbsp peanut butter alongside the Greek yogurt"
       ],
       "weight": null,
-      "notes": "Legs day done (minus step-ups). Lunch was veg (rice+chana+dal). 4:30pm: Greek yogurt instead of sprouts+PB.",
-      "estimatedCalories": 1318,
-      "estimatedProtein": 66.8,
-      "estimatedFat": 53.4,
-      "estimatedCarbs": 151.0
+      "notes": "Legs day done (minus step-ups). Lunch was veg. 4:30pm snack: Greek yogurt + peanut butter.",
+      "estimatedCalories": 1413,
+      "estimatedProtein": 70.8,
+      "estimatedFat": 61.4,
+      "estimatedCarbs": 154.0
     }
   }
 }
