@@ -316,21 +316,22 @@
         "m3": true,
         "m4": null,
         "m5": true,
-        "m6": null,
+        "m6": true,
         "m7": null,
         "m8": null
       },
       "deviations": [
         "Step-ups skipped \u2014 rest of Legs day completed",
         "Extra 10 almonds had (beyond the 5 at 6:30)",
-        "Lunch: rice + chana curry + dal (vegetarian) instead of chicken + rice + dal"
+        "Lunch: rice + chana curry + dal (vegetarian) instead of chicken + rice + dal",
+        "4:30 PM: 100g Greek yogurt instead of sprouts + peanut butter"
       ],
       "weight": null,
-      "notes": "Legs day done (minus step-ups). On plan through breakfast + extra almonds. Lunch: rice + chana curry + dal (no chicken today).",
-      "estimatedCalories": 1218,
-      "estimatedProtein": 56.8,
-      "estimatedFat": 48.4,
-      "estimatedCarbs": 147.0
+      "notes": "Legs day done (minus step-ups). Lunch was veg (rice+chana+dal). 4:30pm: Greek yogurt instead of sprouts+PB.",
+      "estimatedCalories": 1318,
+      "estimatedProtein": 66.8,
+      "estimatedFat": 53.4,
+      "estimatedCarbs": 151.0
     }
   }
 }
