@@ -313,7 +313,7 @@
       "meals": {
         "m1": true,
         "m2": true,
-        "m3": null,
+        "m3": true,
         "m4": null,
         "m5": null,
         "m6": null,
@@ -321,14 +321,16 @@
         "m8": null
       },
       "deviations": [
-        "Step-ups skipped \u2014 rest of Legs day completed"
+        "Step-ups skipped \u2014 rest of Legs day completed",
+        "8:30 AM: 4 eggs only, no bread/ghee",
+        "Extra 10 almonds had (beyond the 5 at 6:30)"
       ],
       "weight": null,
-      "notes": "Legs day done (minus step-ups). Breakfast on plan so far.",
-      "estimatedCalories": 151,
-      "estimatedProtein": 2.8,
-      "estimatedFat": 3.9,
-      "estimatedCarbs": 29.5
+      "notes": "Legs day done (minus step-ups). Breakfast: almonds x2 rounds, banana+coffee, 4 eggs (no bread).",
+      "estimatedCalories": 513,
+      "estimatedProtein": 29.8,
+      "estimatedFat": 30.9,
+      "estimatedCarbs": 34.5
     }
   }
 }
