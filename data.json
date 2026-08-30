@@ -317,7 +317,7 @@
         "m4": null,
         "m5": true,
         "m6": true,
-        "m7": null,
+        "m7": true,
         "m8": null
       },
       "deviations": [
@@ -325,13 +325,14 @@
         "Extra 10 almonds had (beyond the 5 at 6:30)",
         "Lunch: rice + chana curry + dal (vegetarian) instead of chicken + rice + dal",
         "4:30 PM: 100g Greek yogurt instead of sprouts + peanut butter",
-        "Also had 1 tbsp peanut butter alongside the Greek yogurt"
+        "Also had 1 tbsp peanut butter alongside the Greek yogurt",
+        "Dinner: chicken breast (marinated, ~150g), no rice/bread/sabzi mentioned"
       ],
       "weight": null,
-      "notes": "Legs day done (minus step-ups). Lunch was veg. 4:30pm snack: Greek yogurt + peanut butter.",
-      "estimatedCalories": 1413,
-      "estimatedProtein": 70.8,
-      "estimatedFat": 61.4,
+      "notes": "Legs day done (minus step-ups). Dinner: marinated chicken breast (~150g), no sides mentioned. Great protein close.",
+      "estimatedCalories": 1700.5,
+      "estimatedProtein": 117.3,
+      "estimatedFat": 71.3,
       "estimatedCarbs": 154.0
     }
   }
