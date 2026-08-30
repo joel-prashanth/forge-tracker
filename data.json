@@ -322,15 +322,14 @@
       },
       "deviations": [
         "Step-ups skipped \u2014 rest of Legs day completed",
-        "8:30 AM: 4 eggs only, no bread/ghee",
         "Extra 10 almonds had (beyond the 5 at 6:30)"
       ],
       "weight": null,
-      "notes": "Legs day done (minus step-ups). Breakfast: almonds x2 rounds, banana+coffee, 4 eggs (no bread).",
-      "estimatedCalories": 513,
-      "estimatedProtein": 29.8,
-      "estimatedFat": 30.9,
-      "estimatedCarbs": 34.5
+      "notes": "Legs day done (minus step-ups). Breakfast fully on plan + extra 10 almonds: almonds, banana+coffee, 4 eggs, 2 bread toasted in ghee.",
+      "estimatedCalories": 698,
+      "estimatedProtein": 35.8,
+      "estimatedFat": 37.9,
+      "estimatedCarbs": 60.5
     }
   }
 }
