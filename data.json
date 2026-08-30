@@ -306,6 +306,29 @@
       "estimatedProtein": 154.3,
       "estimatedFat": 89.1,
       "estimatedCarbs": 262.5
+    },
+    "2026-08-30": {
+      "workoutType": "Legs",
+      "workoutDone": null,
+      "meals": {
+        "m1": true,
+        "m2": true,
+        "m3": null,
+        "m4": null,
+        "m5": null,
+        "m6": null,
+        "m7": null,
+        "m8": null
+      },
+      "deviations": [
+        "7:00 AM: only black coffee mentioned so far, banana status unclear"
+      ],
+      "weight": null,
+      "notes": "Legs day planned. Almonds + black coffee had (no banana mentioned).",
+      "estimatedCalories": 46,
+      "estimatedProtein": 1.5,
+      "estimatedFat": 3.5,
+      "estimatedCarbs": 2.5
     }
   }
 }
