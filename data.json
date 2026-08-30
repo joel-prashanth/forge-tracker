@@ -320,15 +320,13 @@
         "m7": null,
         "m8": null
       },
-      "deviations": [
-        "7:00 AM: only black coffee mentioned so far, banana status unclear"
-      ],
+      "deviations": [],
       "weight": null,
-      "notes": "Legs day planned. Almonds + black coffee had (no banana mentioned).",
-      "estimatedCalories": 46,
-      "estimatedProtein": 1.5,
-      "estimatedFat": 3.5,
-      "estimatedCarbs": 2.5
+      "notes": "Legs day planned. Breakfast so far: almonds, banana + coffee (on plan).",
+      "estimatedCalories": 151,
+      "estimatedProtein": 2.8,
+      "estimatedFat": 3.9,
+      "estimatedCarbs": 29.5
     }
   }
 }
