@@ -351,14 +351,15 @@
       "deviations": [
         "11:00 AM: fruit + almonds only, no curd/yogurt",
         "Dinner: boiled egg curry (1 egg) + 2 rotis + dal, instead of soya chunks + brown bread + sabzi",
-        "Extra: 1 more cup rice, half an egg, 1 more cup dal on top of dinner"
+        "Extra: 1 more cup rice, half an egg, 1 more cup dal on top of dinner",
+        "180ml buttermilk (chaas) had"
       ],
       "weight": null,
-      "notes": "Core + Conditioning done. On plan through lunch. Dinner + extra rice/egg/dal on top.",
-      "estimatedCalories": 2575.5,
-      "estimatedProtein": 161.3,
-      "estimatedFat": 80.3,
-      "estimatedCarbs": 304.8
+      "notes": "Core + Conditioning done. Full day logged, ended with buttermilk instead of milk.",
+      "estimatedCalories": 2615.5,
+      "estimatedProtein": 163.3,
+      "estimatedFat": 81.3,
+      "estimatedCarbs": 308.8
     }
   },
   "splitPattern": [
