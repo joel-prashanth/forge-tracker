@@ -341,7 +341,7 @@
       "meals": {
         "m1": true,
         "m2": true,
-        "m3": null,
+        "m3": true,
         "m4": null,
         "m5": null,
         "m6": null,
@@ -350,11 +350,11 @@
       },
       "deviations": [],
       "weight": null,
-      "notes": "Core + Conditioning day done. Breakfast on plan so far.",
-      "estimatedCalories": 151,
-      "estimatedProtein": 2.8,
-      "estimatedFat": 3.9,
-      "estimatedCarbs": 29.5
+      "notes": "Core + Conditioning done. Breakfast fully on plan.",
+      "estimatedCalories": 616,
+      "estimatedProtein": 32.8,
+      "estimatedFat": 30.9,
+      "estimatedCarbs": 57.5
     }
   }
 }
