@@ -337,7 +337,7 @@
     },
     "2026-08-31": {
       "workoutType": "Core",
-      "workoutDone": null,
+      "workoutDone": true,
       "meals": {
         "m1": true,
         "m2": true,
@@ -350,7 +350,7 @@
       },
       "deviations": [],
       "weight": null,
-      "notes": "Core + Conditioning day planned. Breakfast started: almonds, banana + coffee (on plan).",
+      "notes": "Core + Conditioning day done. Breakfast on plan so far.",
       "estimatedCalories": 151,
       "estimatedProtein": 2.8,
       "estimatedFat": 3.9,
