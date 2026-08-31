@@ -356,5 +356,14 @@
       "estimatedFat": 30.9,
       "estimatedCarbs": 57.5
     }
-  }
+  },
+  "splitPattern": [
+    "Push",
+    "Pull",
+    "Legs",
+    "Core",
+    "Conditioning",
+    "Rest"
+  ],
+  "splitNote": "6-day rotating cycle: Push, Pull, Legs, Core, Conditioning (Full Body/Jump Rope), then Rest, repeating."
 }
