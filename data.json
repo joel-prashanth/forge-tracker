@@ -345,18 +345,19 @@
         "m4": true,
         "m5": true,
         "m6": true,
-        "m7": null,
+        "m7": true,
         "m8": null
       },
       "deviations": [
-        "11:00 AM: fruit + almonds only, no curd/yogurt"
+        "11:00 AM: fruit + almonds only, no curd/yogurt",
+        "Dinner: boiled egg curry (~3 eggs) + 2 rotis + dal, instead of soya chunks + brown bread + sabzi"
       ],
       "weight": null,
-      "notes": "Core + Conditioning done. Fully on plan through 4:30pm snack (lunch logged retroactively: chicken+rice+dal).",
-      "estimatedCalories": 1600.5,
-      "estimatedProtein": 112.3,
-      "estimatedFat": 56.5,
-      "estimatedCarbs": 167.5
+      "notes": "Core + Conditioning done. On plan through lunch. Dinner: egg curry + roti + dal (vegetarian-style swap, no soya chunks).",
+      "estimatedCalories": 2310.5,
+      "estimatedProtein": 151.3,
+      "estimatedFat": 81.3,
+      "estimatedCarbs": 234.5
     }
   },
   "splitPattern": [
