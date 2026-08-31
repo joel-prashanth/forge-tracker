@@ -334,6 +334,27 @@
       "estimatedProtein": 117.3,
       "estimatedFat": 71.3,
       "estimatedCarbs": 154.0
+    },
+    "2026-08-31": {
+      "workoutType": "Core",
+      "workoutDone": null,
+      "meals": {
+        "m1": true,
+        "m2": true,
+        "m3": null,
+        "m4": null,
+        "m5": null,
+        "m6": null,
+        "m7": null,
+        "m8": null
+      },
+      "deviations": [],
+      "weight": null,
+      "notes": "Core + Conditioning day planned. Breakfast started: almonds, banana + coffee (on plan).",
+      "estimatedCalories": 151,
+      "estimatedProtein": 2.8,
+      "estimatedFat": 3.9,
+      "estimatedCarbs": 29.5
     }
   }
 }
