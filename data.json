@@ -342,19 +342,21 @@
         "m1": true,
         "m2": true,
         "m3": true,
-        "m4": null,
+        "m4": true,
         "m5": null,
         "m6": null,
         "m7": null,
         "m8": null
       },
-      "deviations": [],
+      "deviations": [
+        "11:00 AM: fruit + almonds only, no curd/yogurt"
+      ],
       "weight": null,
-      "notes": "Core + Conditioning done. Breakfast fully on plan.",
-      "estimatedCalories": 616,
-      "estimatedProtein": 32.8,
-      "estimatedFat": 30.9,
-      "estimatedCarbs": 57.5
+      "notes": "Core + Conditioning done. On plan through 11am snack (fruit + almonds, no curd).",
+      "estimatedCalories": 758,
+      "estimatedProtein": 36.8,
+      "estimatedFat": 38.1,
+      "estimatedCarbs": 75.5
     }
   },
   "splitPattern": [
