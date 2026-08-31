@@ -63,12 +63,12 @@
     {
       "id": "m7",
       "time": "7:30 PM",
-      "label": "Paneer + brown bread + sabzi",
-      "detail": "150g paneer, 2 slices, 1 cup sabzi",
-      "cal": 688,
-      "protein": 37,
-      "fat": 40,
-      "carb": 46.1
+      "label": "Soya chunks curry + brown bread + sabzi",
+      "detail": "60g dry soya chunks, 2 slices, 1 cup sabzi",
+      "cal": 490,
+      "protein": 40,
+      "fat": 11,
+      "carb": 61
     },
     {
       "id": "m8",
@@ -239,12 +239,12 @@
       "fat": 4.5,
       "carb": 0
     },
-    "Paneer": {
-      "unit": "100g",
-      "cal": 265,
-      "protein": 18,
-      "fat": 20,
-      "carb": 3.4
+    "Soya Chunks": {
+      "unit": "30g dry",
+      "cal": 100,
+      "protein": 15,
+      "fat": 0.5,
+      "carb": 10
     }
   },
   "profile": {
