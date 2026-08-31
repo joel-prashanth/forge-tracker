@@ -350,14 +350,14 @@
       },
       "deviations": [
         "11:00 AM: fruit + almonds only, no curd/yogurt",
-        "Dinner: boiled egg curry (~3 eggs) + 2 rotis + dal, instead of soya chunks + brown bread + sabzi"
+        "Dinner: boiled egg curry (1 egg) + 2 rotis + dal, instead of soya chunks + brown bread + sabzi"
       ],
       "weight": null,
-      "notes": "Core + Conditioning done. On plan through lunch. Dinner: egg curry + roti + dal (vegetarian-style swap, no soya chunks).",
-      "estimatedCalories": 2310.5,
-      "estimatedProtein": 151.3,
-      "estimatedFat": 81.3,
-      "estimatedCarbs": 234.5
+      "notes": "Core + Conditioning done. On plan through lunch. Dinner: egg curry (1 egg) + roti + dal.",
+      "estimatedCalories": 2140.5,
+      "estimatedProtein": 140.3,
+      "estimatedFat": 73.3,
+      "estimatedCarbs": 232.5
     }
   },
   "splitPattern": [
