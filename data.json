@@ -63,12 +63,12 @@
     {
       "id": "m7",
       "time": "7:30 PM",
-      "label": "Fish + brown bread + sabzi",
-      "detail": "150g fish, 2 slices, 1 cup sabzi",
-      "cal": 470,
-      "protein": 40,
-      "fat": 16,
-      "carb": 41
+      "label": "Paneer + brown bread + sabzi",
+      "detail": "150g paneer, 2 slices, 1 cup sabzi",
+      "cal": 688,
+      "protein": 37,
+      "fat": 40,
+      "carb": 46.1
     },
     {
       "id": "m8",
@@ -162,13 +162,6 @@
       "fat": 3.6,
       "carb": 0
     },
-    "Fish": {
-      "unit": "100g",
-      "cal": 120,
-      "protein": 20,
-      "fat": 4,
-      "carb": 0
-    },
     "Curd": {
       "unit": "1 cup",
       "cal": 120,
@@ -245,6 +238,13 @@
       "protein": 0,
       "fat": 4.5,
       "carb": 0
+    },
+    "Paneer": {
+      "unit": "100g",
+      "cal": 265,
+      "protein": 18,
+      "fat": 20,
+      "carb": 3.4
     }
   },
   "profile": {
