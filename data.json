@@ -360,6 +360,29 @@
       "estimatedProtein": 163.3,
       "estimatedFat": 81.3,
       "estimatedCarbs": 308.8
+    },
+    "2026-09-01": {
+      "workoutType": "Conditioning",
+      "workoutDone": null,
+      "meals": {
+        "m1": true,
+        "m2": true,
+        "m3": true,
+        "m4": true,
+        "m5": true,
+        "m6": true,
+        "m7": true,
+        "m8": true
+      },
+      "deviations": [
+        "Skipped 2 brown bread slices at breakfast"
+      ],
+      "weight": null,
+      "notes": "Diet followed as planned all day, minus 2 brown bread slices at breakfast. Workout (Conditioning) pushed to evening.",
+      "estimatedCalories": 2231,
+      "estimatedProtein": 160,
+      "estimatedFat": 80.4,
+      "estimatedCarbs": 222.1
     }
   },
   "splitPattern": [
