@@ -362,8 +362,8 @@
       "estimatedCarbs": 308.8
     },
     "2026-09-01": {
-      "workoutType": "Conditioning",
-      "workoutDone": null,
+      "workoutType": "Rest",
+      "workoutDone": true,
       "meals": {
         "m1": true,
         "m2": true,
@@ -375,10 +375,11 @@
         "m8": true
       },
       "deviations": [
-        "Skipped 2 brown bread slices at breakfast"
+        "Skipped 2 brown bread slices at breakfast",
+        "Took rest instead of the planned Conditioning session"
       ],
       "weight": null,
-      "notes": "Diet followed as planned all day, minus 2 brown bread slices at breakfast. Workout (Conditioning) pushed to evening.",
+      "notes": "Diet followed as planned minus 2 bread slices. Took rest today instead of Conditioning workout.",
       "estimatedCalories": 2231,
       "estimatedProtein": 160,
       "estimatedFat": 80.4,
