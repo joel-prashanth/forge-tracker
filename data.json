@@ -400,15 +400,14 @@
         "m8": null
       },
       "deviations": [
-        "Workout split: DB Complex in the morning, jump rope segments at night",
-        "7:00 AM: only black coffee, no banana mentioned"
+        "Workout split: DB Complex in the morning, jump rope segments at night"
       ],
       "weight": null,
-      "notes": "Conditioning day (split morning/night). Almonds + coffee had.",
-      "estimatedCalories": 46,
-      "estimatedProtein": 1.5,
-      "estimatedFat": 3.5,
-      "estimatedCarbs": 2.5
+      "notes": "Conditioning day (split morning/night). Breakfast on plan so far: almonds, banana + coffee.",
+      "estimatedCalories": 151,
+      "estimatedProtein": 2.8,
+      "estimatedFat": 3.9,
+      "estimatedCarbs": 29.5
     }
   },
   "splitPattern": [
