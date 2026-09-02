@@ -385,6 +385,29 @@
       "estimatedProtein": 145,
       "estimatedFat": 94.4,
       "estimatedCarbs": 251.1
+    },
+    "2026-09-02": {
+      "workoutType": "Conditioning",
+      "workoutDone": null,
+      "meals": {
+        "m1": null,
+        "m2": null,
+        "m3": null,
+        "m4": null,
+        "m5": null,
+        "m6": null,
+        "m7": null,
+        "m8": null
+      },
+      "deviations": [
+        "Workout split: DB Complex in the morning, jump rope segments at night"
+      ],
+      "weight": null,
+      "notes": "Conditioning day (shifted from Sep 1 rest). Split across morning (DB Complex) and night (jump rope).",
+      "estimatedCalories": null,
+      "estimatedProtein": null,
+      "estimatedFat": null,
+      "estimatedCarbs": null
     }
   },
   "splitPattern": [
