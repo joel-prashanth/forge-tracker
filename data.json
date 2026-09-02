@@ -390,8 +390,8 @@
       "workoutType": "Conditioning",
       "workoutDone": null,
       "meals": {
-        "m1": null,
-        "m2": null,
+        "m1": true,
+        "m2": true,
         "m3": null,
         "m4": null,
         "m5": null,
@@ -400,14 +400,15 @@
         "m8": null
       },
       "deviations": [
-        "Workout split: DB Complex in the morning, jump rope segments at night"
+        "Workout split: DB Complex in the morning, jump rope segments at night",
+        "7:00 AM: only black coffee, no banana mentioned"
       ],
       "weight": null,
-      "notes": "Conditioning day (shifted from Sep 1 rest). Split across morning (DB Complex) and night (jump rope).",
-      "estimatedCalories": null,
-      "estimatedProtein": null,
-      "estimatedFat": null,
-      "estimatedCarbs": null
+      "notes": "Conditioning day (split morning/night). Almonds + coffee had.",
+      "estimatedCalories": 46,
+      "estimatedProtein": 1.5,
+      "estimatedFat": 3.5,
+      "estimatedCarbs": 2.5
     }
   },
   "splitPattern": [
