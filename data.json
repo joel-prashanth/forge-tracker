@@ -388,28 +388,73 @@
     },
     "2026-09-02": {
       "workoutType": "Conditioning",
-      "workoutDone": null,
+      "workoutDone": true,
       "meals": {
         "m1": true,
         "m2": true,
         "m3": true,
         "m4": true,
+        "m5": true,
+        "m6": true,
+        "m7": true,
+        "m8": true
+      },
+      "deviations": [
+        "Workout split: DB Complex in the morning, jump rope segments at night",
+        "DB Complex done this morning (jump rope segments still pending tonight)",
+        "Post-workout: 4 eggs (no bread/ghee), 1 apple + 10 almonds (no curd), plus 3 cubes dark chocolate (extra)",
+        "Jump rope segments completed at night as planned"
+      ],
+      "weight": null,
+      "notes": "Conditioning day complete (DB Complex AM, jump rope PM). Mostly on plan, extras: dark chocolate.",
+      "estimatedCalories": 2146,
+      "estimatedProtein": 153.9,
+      "estimatedFat": 77.4,
+      "estimatedCarbs": 219.1
+    },
+    "2026-09-03": {
+      "workoutType": "Rest",
+      "workoutDone": true,
+      "meals": {
+        "m1": true,
+        "m2": true,
+        "m3": true,
+        "m4": true,
+        "m5": true,
+        "m6": true,
+        "m7": true,
+        "m8": true
+      },
+      "deviations": [
+        "Mostly on track \u2014 exact meal-by-meal detail not logged in real time"
+      ],
+      "weight": null,
+      "notes": "Rest day. Diet mostly followed as planned (logged retroactively on Sep 4, minor deviations likely but not itemized).",
+      "estimatedCalories": 2371,
+      "estimatedProtein": 166,
+      "estimatedFat": 82.4,
+      "estimatedCarbs": 248.1
+    },
+    "2026-09-04": {
+      "workoutType": "Push",
+      "workoutDone": null,
+      "meals": {
+        "m1": null,
+        "m2": null,
+        "m3": null,
+        "m4": null,
         "m5": null,
         "m6": null,
         "m7": null,
         "m8": null
       },
-      "deviations": [
-        "Workout split: DB Complex in the morning, jump rope segments at night",
-        "DB Complex done this morning (jump rope segments still pending tonight)",
-        "Post-workout: 4 eggs (no bread/ghee), 1 apple + 10 almonds (no curd), plus 3 cubes dark chocolate (extra)"
-      ],
+      "deviations": [],
       "weight": null,
-      "notes": "Conditioning: DB Complex done AM, jump rope pending PM. Post-workout: eggs, apple, almonds, dark chocolate.",
-      "estimatedCalories": 653,
-      "estimatedProtein": 31.8,
-      "estimatedFat": 37.1,
-      "estimatedCarbs": 56.5
+      "notes": "Push day starting fresh.",
+      "estimatedCalories": null,
+      "estimatedProtein": null,
+      "estimatedFat": null,
+      "estimatedCarbs": null
     }
   },
   "splitPattern": [
